@@ -37,4 +37,36 @@ O XML segue um _schema_, um conjunto de normas, que define regras de validação
 
 ## **JSON**
 
+Utiliza objetos existentes de JavaScript,
+JSON é uma sigla para _JavaScript Object Notations_. Começou a ser usado no fim de 90, começo dos 2000. Sua padronização mais recente foi em 2017. Sua popularidade cresceu muito graças a ser o modo preferido de lidar com dados em requisições AJAX. É usado na maioria das APIs do mercado.
+
+Possui o modelo chave-valor (como um objeto de JavaScript). Por exemplo:
+
+```
+{
+  "nome": "Maria José",
+  "idade": 30,
+  "salario": 15000.00,
+  "tecnologias": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python"
+  ]
+}
+```
+
+### **Vantagens**
+
+- é mais rápido que o XML
+- tem alta compatibilidade
+- server-side parsing é rápida com JSON
+- o fato de armazenar os dados em objetos e arrays torna sua manipulação mais fácil
+
+### **Desvantagens**
+
+- não tem error handling para JSON calls
+- 'falha silenciosamente'
+- é vulnerável a uma serie de ataques
+
 ## **YML**
